@@ -1,0 +1,54 @@
+ [
+            {
+              "id": "1",
+              "email": "test1@email.pl",
+              "city": "Warszawa",
+              "post_code": "35-100",
+              "street": "Warszawska",
+              "nr": "19",
+              "state": "Warszawski",
+              "province": "Mazowieckie",
+              "latitude": "52.21740202273157",
+              "longitude": "21.016122479045407",
+              "partner_type": null
+            },
+            {
+              "id": "2",
+              "email": "test2@email.pl",
+              "city": "Dębica",
+              "post_code": "35-068",
+              "street": "Testowa",
+              "nr": "19",
+              "state": "Sandomierski",
+              "province": "podkarpackie",
+              "latitude": "50.051621",
+              "longitude": "21.412104",
+              "partner_type": "0"
+            },
+            {
+              "id": "3",
+              "email": "chatka@puchatka.pl",
+              "city": "Ustrzyki Dolne",
+              "post_code": "35-222",
+              "street": "Zamkowa",
+              "nr": "1",
+              "state": "Testowy",
+              "province": "podkarpackie",
+              "latitude": "49.158137",
+              "longitude": "22.551276",
+              "partner_type": "1"
+            },
+            {
+              "id": "4",
+              "email": "test@test.pl",
+              "city": "Rzeszów",
+              "post_code": "35-301",
+              "street": "test",
+              "nr": "6/333",
+              "state": "Rzeszowski",
+              "province": "podkarpackie",
+              "latitude": "50.038155",
+              "longitude": "22.022583",
+              "partner_type": "1"
+            }
+]

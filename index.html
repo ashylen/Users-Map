@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>IMap</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="vendor/interactive_map/css/interactive_map.css" rel="stylesheet">
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?sensor=false&language=pl&key=AIzaSyDFk4n4hJeEoeEFrIxpf9SlVsatqnHUtec">
+  </script>
+
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Kliknij na województwo i sprawdź naszych partnerów!</h1>
+      </div>
+      <!-- Interactive Map Container -->
+      <div class="im-container">
+        <div class="im-map-wrapper">
+          <div class="im-map">
+            <div id="map-canvas"></div>
+          </div>
+        </div>
+      <div class="partners-container">
+        <div class="partner-wrapper hidden">
+          <div class="partner-title">Domyślny typ Partnera</div>
+          <div class="partner-container">
+            <div class="partner-item partner-email"><strong>E-mail:</strong> test@email.pl</div>
+            <div class="partner-item partner-post-code"><strong>Kod pocztowy / Miejscowość:</strong> 35-100 / Warszawa
+            <div class="partner-item partner-street-number"><strong>Nr. domu / lokalu: </strong> 22 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- To make some space for scrolling -->
+  <footer>
+    Just for some space
+  </footer>
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Interactive Map -->
+  <script src="vendor/interactive_map/js/interactive_map.js"></script>
+
+  <!-- Initialize  -->
+  <script>
+    $(document).ready(function () {
+      $('.im-map').interactiveMap();
+    });
+  </script>
+
+</body>
+
+</html>
