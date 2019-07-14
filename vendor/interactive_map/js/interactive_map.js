@@ -102,7 +102,7 @@
 				const longitude = defaults.lang.longitude;
 
 				//Get provinces areas from file
-				$.getJSON("/Users-Map/map/vendor/interactive_map/js/area.json", function (polygon) {
+				$.getJSON("../map/vendor/interactive_map/js/area.json", function (polygon) {
 
 					function initialize()
 					{
