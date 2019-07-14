@@ -371,13 +371,13 @@
 										if (partnerType == '1')
 										{
 											var icon = {
-												url: "/map/vendor/interactive_map/misc/map_marker_blue.png",
+												url: "/Users-Map/interactive_map/misc/map_marker_blue.png",
 												scaledSize: new google.maps.Size(50, 50) // scaled size
 											};
 										} else
 										{
 											var icon = {
-												url: "/map/vendor/interactive_map/misc/map_marker_red.png",
+												url: "/Users-Map/vendor/interactive_map/misc/map_marker_red.png",
 												scaledSize: new google.maps.Size(50, 50) // scaled size
 											};
 										}
